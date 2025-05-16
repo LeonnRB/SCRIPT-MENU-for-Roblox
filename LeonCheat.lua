@@ -91,44 +91,8 @@ wait(1)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
 wait(1)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 3
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 6243
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 0.569
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 17
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 606
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 60
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 8
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 19
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 25
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 9
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 111111111
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
+wait(3)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
 end)
 
 
