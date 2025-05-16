@@ -45,57 +45,6 @@ Section:NewButton("Полёт", "Гравитация прекрасная ;)", 
 game.Workspace.Gravity = 3
 end)
 
-Section:NewButton("Пинг", "Идеально ;)", function()
-game.Workspace.Gravity = 0
-wait(1)
-game.Workspace.Gravity = 800
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-wait(1)
-game.Workspace.Gravity = 800
-wait(1)
-game.Workspace.Gravity = 0
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-wait(1)
-game.Workspace.Gravity = 800
-wait(1)
-game.Workspace.Gravity = 0
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-wait(1)
-game.Workspace.Gravity = 800
-wait(1)
-game.Workspace.Gravity = 0
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-wait(1)
-game.Workspace.Gravity = 800
-wait(1)
-game.Workspace.Gravity = 0
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
-wait(1)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
-wait(3)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
-end)
-
-
 Section2:NewButton("Бесконченые жизни", "ХП Прекрасно много ;)", function()
 game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 9999999999
 game.Players.LocalPlayer.Character.Humanoid.Health = 9999999999
