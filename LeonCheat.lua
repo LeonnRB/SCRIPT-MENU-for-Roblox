@@ -1,4 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+local character = game.Players.LocalPlayer.Character
 
 -- Создать окно UI
 local Window = Library.CreateLib("Leon Roblox Cheat", "RJTheme3")
@@ -44,7 +45,7 @@ Section:NewButton("Полёт", "Гравитация прекрасная ;)", 
 game.Workspace.Gravity = 3
 end)
 
-Section:NewButton("Лаги Баги", "Идеально ;)", function()
+Section:NewButton("Пинг", "Идеально ;)", function()
 game.Workspace.Gravity = 0
 wait(1)
 game.Workspace.Gravity = 800
@@ -70,6 +71,63 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 wait(1)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
 wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
+wait(1)
+game.Workspace.Gravity = 800
+wait(1)
+game.Workspace.Gravity = 0
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
+wait(1)
+game.Workspace.Gravity = 800
+wait(1)
+game.Workspace.Gravity = 0
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 999
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 999
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 3
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 6243
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 0.569
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 17
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 606
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 60
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 8
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 19
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 25
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 1
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 9
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 111111111
+wait(1)
+game.Players.LocalPlayer.Character.Humanoid.HipHeight = 2.569
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1
 end)
 
@@ -114,6 +172,11 @@ game.Workspace.Gravity = 3,7
 end)
 
 -- Текст Бокс
-Section2:NewTextBox("Выполнить команду", "Выполнить написанную команду", function(txdt)
-	txdt
+Section:NewTextBox("Высота игрока", "Изменить высоту игрока", function(txddt)
+	
+end)
+
+-- Текст Бокс
+Section:NewTextBox("Телепорт к игроку...", "Телепорт к игроку с указанным никнеймом", function(telep)
+	game.
 end)
