@@ -134,13 +134,3 @@ end)
 Section3:NewButton("Меркурий", "Гравитация меркурия ;)", function()
 game.Workspace.Gravity = 3,7
 end)
-
--- Текст Бокс
-Section:NewTextBox("Высота игрока", "Изменить высоту игрока", function(txddt)
-	
-end)
-
--- Текст Бокс
-Section:NewTextBox("Телепорт к игроку...", "Телепорт к игроку с указанным никнеймом", function(telep)
-	game.
-end)
