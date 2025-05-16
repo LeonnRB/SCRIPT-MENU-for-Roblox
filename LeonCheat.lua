@@ -94,15 +94,15 @@ Section2:NewToggle("Сила прыжка", "Изменить силу прыж�
 end)
 
 Section3:NewButton("Луна", "Гравитация луны ;)", function()
-game.Workspace.Gravity = 1
+game.Workspace.Gravity = 1,62
 end)
 
 Section3:NewButton("Марс", "Гравитация марса ;)", function()
-game.Workspace.Gravity = 3
+game.Workspace.Gravity = 3,73
 end)
 
 Section3:NewButton("Земля", "Обычная гравитация ;)", function()
-game.Workspace.Gravity = 196
+game.Workspace.Gravity = 196,7
 end)
 
 Section3:NewButton("Космос", "Гравитация космоса ;)", function()
