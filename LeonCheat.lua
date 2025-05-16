@@ -112,3 +112,8 @@ end)
 Section3:NewButton("Меркурий", "Гравитация меркурия ;)", function()
 game.Workspace.Gravity = 3,7
 end)
+
+-- Текст Бокс
+Section2:NewTextBox("Выполнить команду", "Выполнить написанную команду", function(txdt)
+	txdt
+end)
