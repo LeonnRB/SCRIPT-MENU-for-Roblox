@@ -6,10 +6,12 @@ local Window = Library.CreateLib("Leon Roblox Cheat", "RJTheme3")
 -- Секция
 local Tab = Window:NewTab("Главное")
 local Tab2 = Window:NewTab("Игрок")
+local Tab3 = Window:NewTab("Гравитация")
 
 -- Подсекция
 local Section = Tab:NewSection("Читы")
 local Section2 = Tab2:NewSection("Настройки и читы")
+local Section3 = Tab3:NewSection("Выбрать гравитацию")
 
 -- Кнопка
 Section:NewButton("ESP", "WallHack", function()
@@ -89,4 +91,24 @@ Section2:NewToggle("Сила прыжка", "Изменить силу прыж�
     else
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     end
+end)
+
+Section3:NewButton("Луна", "Гравитация луны ;)", function()
+game.Workspace.Gravity = 1
+end)
+
+Section3:NewButton("Марс", "Гравитация марса ;)", function()
+game.Workspace.Gravity = 3
+end)
+
+Section3:NewButton("Земля", "Обычная гравитация ;)", function()
+game.Workspace.Gravity = 196
+end)
+
+Section3:NewButton("Космос", "Гравитация космоса ;)", function()
+game.Workspace.Gravity = 0
+end)
+
+Section3:NewButton("Меркурий", "Гравитация меркурия ;)", function()
+game.Workspace.Gravity = 3,7
 end)
