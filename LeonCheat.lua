@@ -62,8 +62,8 @@ Section2:NewSlider("Скорость Игрока", "Изменить скоро
 end)
 
 -- Переключатель
-Section2:NewToggle("Сила прыжка", "Изменить силу прыжка", function(state)
-    if state then
+Section2:NewToggle("Сила прыжка", "Изменить силу прыжка", function(stated)
+    if stated then
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
     else
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
@@ -88,4 +88,12 @@ end)
 
 Section3:NewButton("Меркурий", "Гравитация меркурия ;)", function()
 game.Workspace.Gravity = 3,7
+end)
+
+Section3:NewButton("Венера", "Гравитация венеры ;)", function()
+game.Workspace.Gravity = 8,87
+end)
+
+Section3:NewButton("Плутон", "Гравитация плутона ;)", function()
+game.Workspace.Gravity = 0,62
 end)
