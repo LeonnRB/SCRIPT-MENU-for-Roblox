@@ -57,7 +57,7 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 999999999999
 end)
 
 -- Слайдер
-Section2:NewSlider("Скорость Игрока", "Изменить скорость игрока", 9000, 30, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section2:NewSlider("Скорость Игрока", "Изменить скорость игрока", 9000, 30, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
@@ -96,4 +96,9 @@ end)
 
 Section3:NewButton("Плутон", "Гравитация плутона ;)", function()
 game.Workspace.Gravity = 0,62
+end)
+
+-- Слайдер
+Section2:NewSlider("Высота Игрока", "Изменить высоту игрока", 156, 2, function(sppd)
+    game:GetService("Workspace")["LocalPlayer"].Humanoid.HipHeight = sppd
 end)
