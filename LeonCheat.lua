@@ -26,7 +26,7 @@ Section:NewButton("ESP", "WallHack", function()
                     esp.ZIndex = 0
                     esp.Size = Vector3.new(4, 5, 1)
                     esp.Transparency = 0.65
-                    esp.Color3 = Color3.fromRGB(0,0,255)
+                    esp.Color3 = Color3.fromRGB(0,229,238)
                     esp.AlwaysOnTop = true
                     esp.Name = "EspBox"
                 end
@@ -41,13 +41,19 @@ Section:NewSlider("Гравитация", "Изменить гравитацию
     game.Workspace.Gravity = dds
 end)
 
-Section:NewButton("Полёт", "Гравитация прекрасная ;)", function()
-game.Workspace.Gravity = 3
+-- Переключатель
+Section:NewToggle("Полёт", "Гравитация прикольненькая ;)", function(state)
+    if state then
+        game.Workspace.Gravity = 3
+    else
+        game.Workspace.Gravity = 196,7
+    end
 end)
 
+
 Section2:NewButton("Бесконченые жизни", "ХП Прекрасно много ;)", function()
-game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 9999999999
-game.Players.LocalPlayer.Character.Humanoid.Health = 9999999999
+game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 99999999999999
+game.Players.LocalPlayer.Character.Humanoid.Health = 999999999999
 end)
 
 -- Слайдер
