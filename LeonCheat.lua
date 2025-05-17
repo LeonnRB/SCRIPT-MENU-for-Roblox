@@ -8,13 +8,11 @@ local Window = Library.CreateLib("Leon Roblox Cheat", "RJTheme3")
 local Tab = Window:NewTab("Главное")
 local Tab2 = Window:NewTab("Игрок")
 local Tab3 = Window:NewTab("Гравитация")
-local Tab4 = Window:NewTab("Высота игрока")
 
 -- Подсекция
 local Section = Tab:NewSection("Читы")
 local Section2 = Tab2:NewSection("Настройки и читы")
 local Section3 = Tab3:NewSection("Выбрать гравитацию")
-local Section4 = Tab4:NewSection("Данные для изменения")
 
 -- Кнопка
 Section:NewButton("ESP", "WallHack", function()
@@ -98,18 +96,4 @@ end)
 
 Section3:NewButton("Плутон", "Гравитация плутона ;)", function()
 game.Workspace.Gravity = 0,62
-end)
-
--- Текст Бокс
-Section4:NewTextBox("Никнейм нужного игрока", "Ваш или иной никнейм игрока", function(tddxt)
-	local Nick = tddxt
-end)
-
--- Текст Бокс
-Section4:NewTextBox("Высота игрока", "Высота игрока с введённым выше никнеймом", function(tdxt)
-	local Visota = tdxt
-end)
-
-Section4:NewButton("Изменить высоту", "Изменение высота по данным выше", function()
-game:GetService("Workspace")[Nick].Humanoid.HipHeight = Visota
 end)
