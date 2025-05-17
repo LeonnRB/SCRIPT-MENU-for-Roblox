@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 local character = game.Players.LocalPlayer.Character
 
 -- Создать окно UI
-local Window = Library.CreateLib("Leon Roblox Cheat", "RJTheme3")
+local Window = Library.CreateLib("Leon Roblox Cheat", "RJTheme5")
 
 -- Секция
 local Tab = Window:NewTab("Главное")
