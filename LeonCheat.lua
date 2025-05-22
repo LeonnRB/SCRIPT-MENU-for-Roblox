@@ -57,7 +57,7 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 999999999999
 end)
 
 -- Слайдер
-Section2:NewSlider("Скорость Игрока", "Изменить скорость игрока", 9000, 30, function(s)
+Section2:NewSlider("Скорость Игрока", "Изменить скорость игрока", 500, 30, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
